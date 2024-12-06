@@ -1,0 +1,7 @@
+import random 
+number = random.randint(1,100) 
+num=int(input("Enter a number, I will generate a number between 1 to 100, if my number and your number match then you win "))
+if number==num:
+    print("You win")
+else:
+    print("You lose")
